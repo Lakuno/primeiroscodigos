@@ -1,0 +1,10 @@
+Console.WriteLine("Calculando IMC");
+            Console.Write("Informe sua massa corporal (em kilogramas): ");
+            double massa = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Informe sua altura (em metros): ");
+            double altura = Convert.ToDouble(Console.ReadLine());
+
+            double IMC = massa / (altura * altura);
+
+            Console.WriteLine("Seu índice de massa corporal é de {0:N2}", IMC);

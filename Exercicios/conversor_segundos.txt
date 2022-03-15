@@ -1,0 +1,7 @@
+  Console.Write("Informe o valor em segundos: ");
+            int seg = Convert.ToInt16(Console.ReadLine());
+            int hor = (seg / 3600);
+            int min = (seg % 3600) / 60;
+            int segfin = (seg % 60) % 60;
+
+            Console.WriteLine("{0} segundos equivalem a {1} horas, {2} minutos e {3} segundos.", seg,hor,min,segfin);

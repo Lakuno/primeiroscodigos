@@ -1,0 +1,6 @@
+ Console.Write("Informe o valor do produto: ");
+            double desconto = 0.25;
+            double valor = Convert.ToDouble(Console.ReadLine());
+            double valorfinal = valor - (valor*desconto);
+
+            Console.WriteLine("O valor final do produto é de {0} R$", valorfinal);

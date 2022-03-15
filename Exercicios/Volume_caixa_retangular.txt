@@ -1,0 +1,12 @@
+ Console.WriteLine("Cálculo de Volume de uma caixa retangular");
+            Console.Write("Informe o comprimento: ");
+            double comprimento = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Informe a largura: ");
+            double largura = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Informe a altura: ");
+            double altura = Convert.ToDouble(Console.ReadLine());
+
+            double volume = comprimento*altura*largura;
+            Console.WriteLine("O volume da caixa é {0:N2}", volume);

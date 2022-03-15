@@ -1,0 +1,6 @@
+ Console.Write("Informe o número: ");
+            int numero = Convert.ToInt32(Console.ReadLine());
+            int antecessor, sucessor;
+            antecessor = numero - 1;
+            sucessor = numero + 1;
+            Console.WriteLine("O número {0} possui antecessor {1} e sucessor {2}", numero,antecessor,sucessor);
